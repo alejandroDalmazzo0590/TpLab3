@@ -1,0 +1,169 @@
+body {
+    background-color: lightgrey;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.header {
+    background-color: #4184F5;
+    padding: 10px;
+    border: 0;
+}
+
+.form-container {
+    text-align: right;
+    float: right;
+    width: 50%;
+  }
+
+.btn2-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.form-control-sm::placeholder {
+    color:#4184F5;
+}
+
+
+#perfil-imagen {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #4184F5;
+    padding: 2px;
+}
+
+.form-control-sm {
+    border-radius: 8%;
+    background-color: rgb(212, 231, 248);
+    border: none;
+    padding: 1%;
+    padding-left: 1%;
+}
+
+.btn-container{
+    text-align: right;
+}
+
+button {
+    background-color: #4184F5;
+    color: white;
+    border-radius: 15%;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+}
+
+#btnUsuario {
+    margin: 5px;
+}
+
+#btnlike {
+    margin-left: 10px;
+    background-color: hsl(0, 0%, 95%);;
+    color:#4184F5;
+    margin: 5px;
+    margin-left: 0px;
+}
+
+.perfil-imagen {
+    float: left;
+    width: 158px;
+    padding: 25px;
+}
+
+.info {
+    float: left;
+    width: auto;
+    padding-top:40px;
+    font-size: 13px;
+}
+
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    line-height: 150%;
+    font-size: 100%;
+}
+
+h2 {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.box-container {
+    margin: 20px auto;
+    max-width: 850px;
+}
+
+.box {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.box h4 {
+    text-align: right;
+}
+
+.box-info {
+    margin: 20px auto;
+    max-width: 850px;
+}
+
+.box-publi {
+    width: 57%;
+    float: left;
+    margin-right: 3%;
+    font-size: 12px;
+}
+
+input {
+    flex-grow: 100;
+    flex-basis: auto;
+    flex-shrink: 1;
+  }
+
+
+.box-texto {
+    font-size: 12px;
+    width: 40%;
+    float: left;
+    text-align: left;
+    /*poner un padding porcentual y cambiar el ancho para que la suma de 40 o menos*/
+}
+
+
+.info, .texto, .publi {
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.fix {
+    clear: both;
+}
+
+.btncomentar::placeholder {
+    background-color: hsl(0, 0%, 95%);
+    color: rgb(36, 36, 36);
+    padding: 20px 10px;
+}
+
+.btncomentar {
+    border: none;
+    padding: 0px 15px;
+    background-color: hsl(0, 0%, 95%);
+}
+

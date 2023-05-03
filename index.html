@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+	<title>Laboratorio III</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap" rel="stylesheet">
+<script src="src.js/btnComenta.js" defer></script>
+<script src="src.js/btnSeguir.js" defer></script>
+<script src="src.js/btnLike.js" defer></script>
+
+</head>
+
+
+<body>
+    
+    <section> <!-- sección barrita azul -->
+        <div class="header">
+            <img src="logo-globo.png" alt="Logo Globo" width="100" id="logo">
+            <div class="form-container">
+                <input type="text" class="form-control-sm" placeholder="Ingresa tu usuario..." id="txtUsuario">
+                <button id="btnUsuario">Ingresar</button>
+            </div>
+        </div>
+    </section>
+
+    <section> <!--sección info básica-->
+        <div class="box box-info"> <!--para agregar caja-->
+        
+            <!--info básica/foto-->
+            <div class="infobasic">
+            <div class="perfil-imagen">
+                <div class="profile-pic">
+                    <img src="imagen-perfil.jpg" alt="Imagen de perfil" id="perfil-imagen">
+                </div>
+            </div>
+            
+                
+            <!--info básica/datos-->
+
+                <div class="info"> 
+                    <ul>
+                        <h2>Jane Doe</h2>
+                        <li><strong>Email: </strong>jane_doe@email.com</li>
+                        <li><strong>Fecha de Nacimiento: </strong>01/05/1996</li>
+                        <li><strong>Teléfono: </strong>918-936-9585</li>
+                        <li><strong>Ciudad: </strong>Tokyo, Japón</li>
+                        <li>Trabajando en <strong>Lawn N</strong></li>
+                    </ul>   
+                                                                    <!--botón seguir-->
+                </div> <!--fin info básica-->
+                
+            </div>
+            <div class="fix"></div>
+            <div class="btn-container">
+            <div class="btnseguir">
+                <button class="btn-1" id="btnseguir">Seguir</button>
+                
+            </div>
+            
+            </div>
+        </div>
+        </div> <!--fin caja-->
+    </section>
+
+        <div class="box-container">
+            <section> <!--sección publicación-->
+                <div class="box box-publi"> <!--para agregar padding-->
+                    <div class="publi">
+                        <p>Publicado hace 1 semana</p>
+                        <img src="publicacion.jpg" alt="Imagen Tokio" width="454px" height="auto" id="publicacion">
+                        <button class="btn-3" id="btnlike">Me Gusta</button> <p id="contador" style="display:inline-block"><b>200 Likes</b></p>
+                        <p>Comentarios</p>
+                        <h3><strong>Juan Pérez</h3></strong> <p>¡Wow, esa foto de Tokio es impresionante!</p>
+                        <h3><strong>Kathleen J Rennie </h3></strong> <p>¡Esta foto de Tokio es simplemente espectacular! Me trae tantos recuerdos.!</p>
+                        <h3><strong style="color: #4184F5">Diana Bell </h3></strong>  <p>¡Espero que algún día pueda ver Tokio en persona!</p>
+                        <h5 id="NombreComentario"></h5>
+                        <p id="comentario"></p>
+
+                    </div>
+                    <div class="btn2-container">
+                        <input class="btncomentar" type="text" id="txtcomentario" placeholder="Deja tu comentario...">
+                        <button class="btn-2"id="btnComentarios">Comentar</button>
+                    </div>
+                    
+
+                    
+                  
+                        
+            </section>
+                
+                
+            <section> <!--sección sobre mí-->
+                <div class="box box-texto">
+                <div class="texto">
+                <h3>Sobre mí</h3>
+                <p>¡Hola a todos! Soy Jane, y actualmente <br>
+                    vivo en la vibrante y emocionante <br>
+                    ciudad de Tokio, Japón. Me encanta <br>
+                    capturar la esencia de la vida urbana a <br>
+                    través de mi lente, explorando el <br>
+                    contraste entre la arquitectura <br>
+                    moderna y las tradiciones centenarias <br>
+                    que conviven en esta metrópolis <br>
+                    única. Desde rascacielos <br>
+                    deslumbrantes y calles bulliciosas <br>
+                    hasta templos serenos y jardines <br>
+                    tranquilos, encuentro inspiración en <br>
+                    cada rincón de esta increíble ciudad</p>
+                </div>
+            </div> 
+            </section>
+            <div class="fix"></div>
+        </div>    
+</body>
+
+</html>
+
+
